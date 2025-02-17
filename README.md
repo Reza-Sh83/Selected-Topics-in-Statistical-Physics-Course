@@ -9,6 +9,5 @@ This repository contains lecture notes, codes, and supplementary materials for t
 - **References:**  Additional resources, papers, textbooks and Peresentation.
 
 ## Topics Covered
-- **Intro:** What is DNA?, What is RNA?, DNA vs. RNA, What is CRISPR?, How CRISPR Works?, CRISPR vs. Traditional Gene Editing, CRISPR in Medicine, CRISPR in Agriculture, CRISPR and Disease Prevention, Ethical Concerns of
-CRISPR, The Future of CRISPR.
+- **Intro:** Introduction, Timeline, Final Projects.
 - **Session 1:** Errors, Histogram, s.d., SEM, T-Test table, Norm for Scalers, Norms for Matices, Optimization, Cost Function, Brownian 2D Cost Function, simple code for underestanding Optimization.
