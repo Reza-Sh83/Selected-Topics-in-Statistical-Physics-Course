@@ -4,7 +4,7 @@
 This repository contains lecture notes, codes, and supplementary materials for the **Selected Topics in Statistical Physics** course. 
 
 ## Repository Structure
-- **Lecture Notes:** Lecture notes for each class session are in this folder. Sessions included: Session 1
+- **Lecture Notes:** Lecture notes for each class session are in this folder. Sessions included to now: Session 1
 - **Codes:** R scripts for simulations and analysis.
 - **References:**  Additional resources, papers, and textbooks.
 
