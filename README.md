@@ -6,7 +6,7 @@ This repository contains lecture notes, codes, and supplementary materials for t
 ## Repository Structure
 - **Lecture Notes:** Lecture notes for each class session are in this folder. Sessions included to now: Intro, Session 1
 - **Codes:** R scripts for simulations and analysis.
-- **References:**  Additional resources, papers, and textbooks, Peresentation.
+- **References:**  Additional resources, papers, textbooks and Peresentation.
 
 ## Topics Covered
 - **Intro:** What is DNA?, What is RNA?, DNA vs. RNA, What is CRISPR?, How CRISPR Works?, CRISPR vs. Traditional Gene Editing, CRISPR in Medicine, CRISPR in Agriculture, CRISPR and Disease Prevention, Ethical Concerns of
