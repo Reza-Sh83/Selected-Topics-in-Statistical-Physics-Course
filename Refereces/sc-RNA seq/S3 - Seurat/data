@@ -1,0 +1,1 @@
+The  sc-RNA data.R script utilizes the Seurat package to load single-cell RNA sequencing (scRNA-seq) data and perform pre-processing steps for downstream analysis. The script includes functions for data loading, quality control, normalization, and feature selection, enabling users to prepare their scRNA-seq data for further exploration and analysis.
