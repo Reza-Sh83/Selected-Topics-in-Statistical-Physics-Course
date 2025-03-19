@@ -15,9 +15,9 @@ library(ggplot2)
 
 
 #reading files : each file represent one sample
-nml1 <- Read10X(data.dir = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/GSE132771_RAW/NLM1")
-nml2 <- Read10X(data.dir = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/GSE132771_RAW/NLM2")
-nml3 <- Read10X(data.dir = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/GSE132771_RAW/NLM3")
+nml1 <- Read10X(data.dir = "/path_to_data")
+nml2 <- Read10X(data.dir = "/path_to_data")
+nml3 <- Read10X(data.dir = "/path_to_data")
 
 #view raw data
 nml1
@@ -41,14 +41,14 @@ view(nml2_obj@meta.data)
 view(nml3_obj@meta.data)
 
 #saving Seurat objects in computer
-saveRDS(nml1_obj, file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/nml1_obj.rds")
-saveRDS(nml2_obj, file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/nml2_obj.rds")
-saveRDS(nml3_obj, file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/nml3_obj.rds")
+saveRDS(nml1_obj, file = "/path/nml1_obj.rds")
+saveRDS(nml2_obj, file = "/path/nml2_obj.rds")
+saveRDS(nml3_obj, file = "/path/nml3_obj.rds")
                                
 #reading RDS files in R
-sample_1 <- readRDS(file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/Seurat Objects/nml1_obj.rds")
-sample_2 <- readRDS(file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/Seurat Objects/nml2_obj.rds")
-sample_3 <- readRDS(file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/Seurat Objects/nml3_obj.rds")
+sample_1 <- readRDS(file = "/path to data/nml1_obj.rds")
+sample_2 <- readRDS(file = "/path_to_data/nml2_obj.rds")
+sample_3 <- readRDS(file = "/path_ti_data/nml3_obj.rds")
 
 #merge 3 samples in one RSD file
 mergedSamples <- merge(x = sample_1, y = c(sample_2, sample_3), 
@@ -133,7 +133,7 @@ FinalData <- RunUMAP(FinalData, dims = 1:10) #specifies that the first 10 princi
 DimPlot(FinalData, reduction = "umap")
 
 # save merged sample
-saveRDS(FinalData, file = "/Users/mozhganoroujlu/Desktop/MOZHGUN/Laleh/Data/real data/GSE132771/Seurat Objects/Final Data.rds")
+saveRDS(FinalData, file = "/path/Final Data.rds")
 
 
                                
